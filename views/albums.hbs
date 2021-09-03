@@ -1,0 +1,8 @@
+<ul>
+  {{#each discography}} 
+    <li>{{name}} - {{cover}}
+        <a href="/tracks/{{id}}">View Tracks</a>
+        <img src="{{images.0.url}}"/>
+    </li>
+  {{/each}}
+</ul>
